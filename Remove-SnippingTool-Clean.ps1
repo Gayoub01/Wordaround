@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
   Uninstall Microsoft Snipping Tool (Microsoft.ScreenSketch) and clean leftovers:
   - AppX uninstall (current user; optional all users)
@@ -7,6 +7,7 @@
   - Remove Snipping Tool-only registry keys (with .reg backup)
   - Remove Start Menu shortcuts for Snipping Tool only (current user + all users)
   - Refresh Start Menu/Explorer processes (no reboot required)
+- test test
 
 .PARAMETER AllUsers
   Attempt removal for all user profiles found (requires Admin).
